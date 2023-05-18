@@ -1,0 +1,201 @@
+.dashboard-container {
+  background-image: url('https://res.cloudinary.com/djzsbpran/image/upload/v1684378800/Background2_k9tkli.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-con {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 90px;
+  padding: 7px 20px;
+  border-bottom: 1px solid #383838;
+  padding-bottom: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-con {
+    height: 150px;
+    padding: 10px 40px;
+    padding-bottom: 50px;
+  }
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.back-icon-board {
+  width: 30px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.bell-icon {
+  width: 30px;
+}
+
+.dash {
+  margin-right: 40px;
+}
+
+.side-bar {
+  width: 30%;
+  border-right: 1px solid #383838;
+  height: 500px;
+  padding-left: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .side-bar {
+    padding-left: 50px;
+    width: 20%;
+  }
+  .bell-icon {
+    width: 50px;
+  }
+  .website-logo {
+    width: 150px;
+  }
+  .back-icon-board {
+    width: 55px;
+  }
+}
+
+.profile-image {
+  width: 50px;
+}
+
+.profile-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-image {
+    width: 90px;
+  }
+  .profile-name {
+    font-size: 18px;
+  }
+}
+
+.option {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+@media screen and (min-width: 500px) {
+  .option {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .option {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .option {
+    padding-left: 70px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .option {
+    padding-left: 90px;
+    font-size: 17px;
+  }
+}
+
+.selected {
+  background-color: #005642;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 4px;
+}
+
+.dash-options {
+  align-self: stretch;
+}
+
+.dash-bottom {
+  display: flex;
+}
+
+.live-deals {
+  font-family: 'Poppins', sans-serif;
+  background-color: #005642;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  width: 200px;
+  height: 32px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .live-deals {
+    height: 36px;
+    width: 300px;
+    font-size: 15px;
+  }
+}
+
+.body-con {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .body-con {
+    width: 80%;
+  }
+}
+
+.most-funded {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  font-weight: 500;
+  padding: 5px;
+  width: 200px;
+  height: 32px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .most-funded {
+    height: 36px;
+    width: 300px;
+    font-size: 15px;
+  }
+}
