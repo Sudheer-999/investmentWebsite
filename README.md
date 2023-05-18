@@ -1,6 +1,5 @@
-# Routing using react-router Part 2
+# Investment Website
 
-- API Calls
-  - Using fetch()
-- Third-Party Packages
-  - react-loader-spinner
+- React Routing
+  - Using React Router
+
